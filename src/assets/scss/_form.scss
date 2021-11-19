@@ -1,0 +1,23 @@
+
+
+.formContainer {
+  font-family:'Courier New', Courier, monospace;
+  width: 40%;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  input, select {
+    margin-bottom: 1rem;
+    width: 100%;
+    font-family: inherit;
+  }
+  label {
+    align-self: flex-start;
+    font-weight: 800;
+  }
+
+}
